@@ -4,7 +4,7 @@
 //
 
 import Foundation
-import FoundationNetwork
+import FoundationNetworking
 
 class GitHubClient {
     private let session: URLSession = {

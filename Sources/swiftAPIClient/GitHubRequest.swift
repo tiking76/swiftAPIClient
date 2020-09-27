@@ -4,6 +4,8 @@
 //
 
 import Foundation
+import FoundationNetworking
+
 
 protocol GitHubRequest {
     associatedtype Response : Decodable
